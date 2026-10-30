@@ -57,4 +57,4 @@ Pass rate by category:
 Expand the dataset to 100 or more cases, test several models, repeat runs with different settings, add a second grader, and test a prompt that asks for a verbatim quote from the context as support.
 
 ## 7. Reproducibility
-Code, data and results: github.com/ppriyagowri-sudo/hallucination-evaluator (add after you push it).
+   Code, data and results: https://github.com/ppriyagowri-sudo/hallucination-evaluator
