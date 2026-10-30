@@ -1,0 +1,85 @@
+id,category,prompt_type,answer,new_numbers,auto_pass
+1,supported,naive,The Eiffel Tower is 330 metres tall.,,True
+1,supported,careful,330 metres.,,True
+2,supported,naive,Water boils at 100 degrees Celsius at sea level.,,True
+2,supported,careful,100 degrees Celsius.,,True
+3,supported,naive,Bengaluru.,,True
+3,supported,careful,Bengaluru.,,True
+4,supported,naive,Akbar's reign ended in 1605.,,True
+4,supported,careful,"1605.
+
+Missing: The year Akbar moved the capital to Fatehpur Sikri.",,True
+5,supported,naive,"Photosynthesis mainly takes place in the chloroplasts of plant cells, which contain chlorophyll.",,True
+5,supported,careful,chloroplasts,,True
+6,missing,naive,"The Eiffel Tower was completed in 1889, but it was actually built for the 1889 World's Fair in Paris, France.",,False
+6,missing,careful,"The Eiffel Tower is 324 meters tall.
+
+Missing: The unit of measurement (meters, feet, etc.).",324,False
+7,missing,naive,"I don't have the most up-to-date information on the current number of employees at Infosys. However, I can suggest some possible sources where you can find the latest information:
+
+1. Infosys' official website: You can check Infosys' official website for the latest information on their employee base.
+2. News articles: You can search for recent news articles about Infosys to see if they have mentioned their current employee count.
+3. Financial reports: Infosys' financial reports may also provide information on their employee base.
+
+Please note that the number of employees at Infosys may have changed since my knowledge cutoff date of December 2023.","1, 2, 2023, 3",False
+7,missing,careful,NOT ENOUGH INFORMATION.,,True
+8,missing,naive,I couldn't find any reliable information about the name of Akbar's favourite horse.,,False
+8,missing,careful,NOT ENOUGH INFORMATION.,,True
+9,missing,naive,"The optimal temperature for photosynthesis in wheat is between 20°C and 30°C (68°F to 86°F). However, the ideal temperature for photosynthesis in wheat is around 25°C (77°F), which is the temperature at which the rate of photosynthesis is at its maximum.
+
+At temperatures above 30°C (86°F), photosynthesis can be inhibited due to the increased rate of respiration, which can outcompete photosynthesis for energy. On the other hand, temperatures below 15°C (59°F) can also slow down photosynthesis, as the enzyme activity and the rate of electron transport are reduced.
+
+It's worth noting that wheat, like many other plants, is a C3 plant, which means it has a relatively narrow temperature range for optimal photosynthesis.","15, 20, 25, 3, 30, 59, 68, 77, 86",False
+9,missing,careful,NOT ENOUGH INFORMATION.,,True
+10,missing,naive,I can't provide the current number of contributors to the pandas library.,,False
+10,missing,careful,NOT ENOUGH INFORMATION.,,True
+11,incomplete,naive,"The Eiffel Tower was built by the company of Gustave Eiffel, and it was completed in 1889.",1889,False
+11,incomplete,careful,"The Eiffel Tower was built by the company of Gustave Eiffel.
+
+Missing: The completion date of the Eiffel Tower.",,True
+12,incomplete,naive,Infosys was founded in 1981 and is headquartered in Bengaluru.,1981,False
+12,incomplete,careful,NOT ENOUGH INFORMATION.,,True
+13,incomplete,naive,"Akbar's reign began in 1556, when he succeeded his father, Humayun. He moved the capital to Fatehpur Sikri in 1571.",1556,False
+13,incomplete,careful,"Akbar's reign began in 1556.
+
+Missing information: The year Akbar moved the capital to Fatehpur Sikri.
+
+Conflict: There is no conflict in the provided context.",1556,False
+14,incomplete,naive,"Chlorophyll absorbs most of the blue and red light, and reflects most of the green light.",,False
+14,incomplete,careful,"Chlorophyll absorbs most blue and red light.
+
+Missing: The colour it reflects most.
+
+Conflict: There is no information about the colour chlorophyll reflects most.",,True
+15,incomplete,naive,"Unfortunately, the information provided only mentions the Q3 revenue, which is 12 crore rupees. There is no mention of the Q4 revenue.",,True
+15,incomplete,careful,NOT ENOUGH INFORMATION.,,True
+16,contradictory,naive,There is no clear answer to this question based on the information provided. Both Source A and Source B provide conflicting information about the completion year of the Eiffel Tower.,,True
+16,contradictory,careful,"CONFLICT
+
+Source A says the Eiffel Tower was completed in 1889, while Source B says it was completed in 1887. These two sources provide conflicting information.",,True
+17,contradictory,naive,"There is not enough information to determine the correct answer. Report A states 5000 employees, while Report B states 8000 employees. Without further information or clarification, it is impossible to determine the correct number of employees the company had in 2024.",,False
+17,contradictory,careful,"CONFLICT. Report A says the company had 5000 employees in 2024, while Report B says it had 8000 employees in 2024. There is no information to determine which report is correct.",,True
+18,contradictory,naive,"There is not enough information to determine when Akbar's reign began. Source A and Source B provide conflicting information, with Source A stating 1556 and Source B stating 1560.",,True
+18,contradictory,careful,"CONFLICT. Source A says Akbar's reign began in 1556, while Source B says it began in 1560.",,True
+19,contradictory,naive,"To find the overall percentage of patients who saw reduced symptoms, you need to combine the results of both studies.
+
+Study 1: 60% of patients
+Study 2: 20% of patients
+
+To combine the results, you can add the percentages:
+
+60% + 20% = 80%
+
+So, 80% of patients saw reduced symptoms.",80,False
+19,contradictory,careful,"CONFLICT
+
+There are two conflicting versions of the answer:
+
+Version 1: 60 percent of patients saw reduced symptoms (Study 1)
+Version 2: 20 percent of patients saw reduced symptoms (Study 2)
+
+The missing information is the combined percentage of patients who saw reduced symptoms in both studies.",,True
+20,contradictory,naive,There is no clear answer. The two documents provide conflicting information about the meeting time.,,True
+20,contradictory,careful,"CONFLICT
+
+Document 1 says the meeting is on Monday at 10 AM, while Document 2 says it is on Wednesday at 10 AM. These two documents provide conflicting information about the day of the meeting.",,True

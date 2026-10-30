@@ -1,0 +1,3 @@
+prompt_type,accuracy,hallucinations,over_abstentions,missed_conflicts
+careful,0.8,2,2,0
+naive,0.65,6,0,1

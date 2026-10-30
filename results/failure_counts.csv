@@ -1,0 +1,4 @@
+failure_type,careful,naive
+hallucination,2,6
+missed_conflict,0,1
+over_abstention,2,0
