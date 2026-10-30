@@ -49,7 +49,7 @@ Pass rate by category:
 ## 5. Limitations
 - Only 20 test cases, so the percentages are rough and a single case changes a rate by 5 points.
 - One small model, one run per case at temperature 0; results may differ for other models or settings.
-- Grading was done by one person after an automatic first pass.
+- Grading was done by one person after an automatic first pass, with an AI assistant helping to review the answers; a second independent human grader would make the results more reliable.
 - The definition of hallucination is strict by design (true-but-unsupported counts).
 - The prompts were not tuned or tested in variants.
 
